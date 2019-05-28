@@ -25,4 +25,12 @@ class shape
         int r=sqrt(314/pie);
         p3=2*pie*r;
         return p3;
+    
     }
+       int shape4(int h)
+    {
+        int base=(2*area)/h;
+        p4=h+base+sqrt((h*h)+(base*base));
+        return p4;
+    }
+};
