@@ -34,3 +34,22 @@ class shape
         return p4;
     }
 };
+int main()
+{
+    int a=2;
+    int c=4;
+    shape rec;
+    int d=rec.shape1(a);
+    cout<<"The Perimeter of Rectangle is:"<<d<<endl;
+    shape sq;
+    int e=sq.shape2();
+    cout<<"The Perimeter of Square is:"<<e<<endl;
+    shape cir;
+    int f=cir.shape3();
+    cout<<"the perimeter of circle is:"<<f<<endl;
+    shape tri;
+    int g=tri.shape4(c);
+   cout<<"the perimeter of triangle is:"<<g<<endl;
+    return 0;
+
+}
