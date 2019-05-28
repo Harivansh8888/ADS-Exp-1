@@ -20,3 +20,9 @@ class shape
       p2=4*s;
       return p2;
     }
+     int shape3()
+    {
+        int r=sqrt(314/pie);
+        p3=2*pie*r;
+        return p3;
+    }
