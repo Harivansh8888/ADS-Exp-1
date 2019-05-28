@@ -14,3 +14,9 @@ class shape
         p1=2*(l+b);
         return p1;
     }
+     int shape2()
+    {
+      int s=sqrt(area);
+      p2=4*s;
+      return p2;
+    }
